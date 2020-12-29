@@ -1,10 +1,12 @@
 % LaTeX Resume Pandoc Template jb2resume.latex
 %
-% Copyright (c) 2016-2017, John Bokma
-% Based on Jason Blevins' LaTeX CV Template;
+% Copyright (c) 2020,
+% Based on John Bokma LaTeX CV Template;
+%       https://github.com/john-bokma/resume-pandoc
+% in turn based on Jason Blevins' LaTeX CV Template;
 %       http://jblevins.org/projects/cv-template/
 %
-% GitHub: https://github.com/john-bokma/resume-pandoc
+% GitHub: https://github.com/akrmn/resume-pandoc
 
 \documentclass[$if(font-size)$$font-size$$else$10pt$endif$,a4paper]{article}
 
