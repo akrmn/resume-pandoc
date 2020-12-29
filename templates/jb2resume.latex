@@ -43,9 +43,10 @@ $if(mono-font-face)$\setmonofont{$mono-font-face$}[Scale=0.9]$endif$
 }
 
 \geometry{
-  body={6.5in, 9.0in},
-  left=1.0in,
-  top=1.0in
+  left=3cm,
+  right=3cm,
+  top=3cm,
+  bottom=3cm
 }
 
 % Fix  for "! Undefined control sequence. <recently read> \tightlist",
