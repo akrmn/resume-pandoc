@@ -15,9 +15,10 @@ right-column:
     value: 169 51 Solna, Stockholm, Sweden
   - key: Nationality
     value: Dutch & Venezuelan
+font-size: 11pt
 name-color: LapisLazuli
 section-color: BlueJeans
-urlcolor: BlueJeans
+url-color: BlueJeans
 ...
 
 # Summary

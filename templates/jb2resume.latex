@@ -6,7 +6,7 @@
 %
 % GitHub: https://github.com/john-bokma/resume-pandoc
 
-\documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,a4paper]{article}
+\documentclass[$if(font-size)$$font-size$$else$10pt$endif$,a4paper]{article}
 
 \usepackage{hyperref}
 \usepackage{geometry}
@@ -25,8 +25,8 @@
 % The following metadata will show up in the PDF properties
 \hypersetup{
   colorlinks = true,
-  urlcolor=$if(urlcolor)$$urlcolor$$else$blue$endif$,
-  linkcolor=$if(linkcolor)$$linkcolor$$else$magenta$endif$,  
+  urlcolor=$if(url-color)$$url-color$$else$blue$endif$,
+  linkcolor=$if(link-color)$$link-color$$else$magenta$endif$,
   pdfauthor = {\name},
   pdfkeywords = {$keywords$},
   pdftitle = {\name: Curriculum Vitae},
