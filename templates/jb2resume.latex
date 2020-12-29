@@ -58,7 +58,7 @@ $if(section-color)$
 $else$
 \sectionfont{\rmfamily\mdseries\Large}
 $endif$
-\subsectionfont{\rmfamily\mdseries\itshape\large}
+\subsectionfont{\color{darkgray}\rmfamily\mdseries\bfseries\large}
 
 % Section numbers or not (default)
 $if(numbersections)$
@@ -71,7 +71,7 @@ $endif$
 % starts on a new line.
 \setlist[itemize]{leftmargin=1em,label={--},before=\item[]}
 
-\setlist[description]{leftmargin=0em, style=sameline}
+\setlist[description]{font=\color{darkgray}, leftmargin=0em, style=sameline}
 
 % Don't use monospace font for URLs
 \urlstyle{same}
