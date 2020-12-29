@@ -21,6 +21,7 @@
 
 $if(main-font-face)$\setmainfont{$main-font-face$}$endif$
 $if(sans-font-face)$\setsansfont{$sans-font-face$}$endif$
+$if(mono-font-face)$\setmonofont{$mono-font-face$}[Scale=0.9]$endif$
 
 \definecolor{LapisLazuli}{HTML}{38618C}
 \definecolor{BlueJeans}{HTML}{35A7FF}
