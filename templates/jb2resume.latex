@@ -53,11 +53,7 @@
 
 % Custom section fonts
 \usepackage{sectsty}
-$if(section-color)$
 \sectionfont{\color{$section-color$}\sffamily\bfseries\Large}
-$else$
-\sectionfont{\rmfamily\mdseries\Large}
-$endif$
 \subsectionfont{\color{darkgray}\rmfamily\mdseries\bfseries\large}
 
 % Section numbers or not (default)
@@ -79,11 +75,7 @@ $endif$
 \begin{document}
 
 % Place name at left
-$if(name-color)$
 {\huge\color{$name-color$}\sffamily\bfseries \name}
-$else$
-{\huge \name}
-$endif$
 
 \bigskip
 
