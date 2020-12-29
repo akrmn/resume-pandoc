@@ -80,16 +80,18 @@ $endif$
 
 \bigskip
 
-$if(left-column)$
-\begin{minipage}[t]{0.495\textwidth}
-  $for(left-column)$$left-column$$sep$ \\ $endfor$
-\end{minipage} % Don't use empty lines after \end and the next \begin{minipage}.
-$endif$
-$if(right-column)$
-\begin{minipage}[t]{0.495\textwidth}
-  $for(right-column)$$right-column$$sep$ \\ $endfor$
+% Left Column
+\begin{minipage}[t]{0.495\textwidth}\vspace{0pt}%
+  $for(left-column)${$left-column$}$sep$ \\ $endfor$
 \end{minipage}
-$endif$
+% Don't use empty lines after \end and the next \begin{minipage}.
+%
+% Right Column
+\begin{minipage}[t]{0.495\textwidth}\vspace{0pt}%
+\begin{description}
+  $for(right-column)$\item[$it.key$] $it.value$ $endfor$
+\end{description}
+\end{minipage}
 
 $body$
 
