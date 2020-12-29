@@ -19,8 +19,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
 
-\setmainfont{Avenir Next}
-\setsansfont{Avenir Next}
+$if(main-font-face)$\setmainfont{$main-font-face$}$endif$
+$if(sans-font-face)$\setsansfont{$sans-font-face$}$endif$
 
 \definecolor{LapisLazuli}{HTML}{38618C}
 \definecolor{BlueJeans}{HTML}{35A7FF}
