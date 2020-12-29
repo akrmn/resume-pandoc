@@ -6,7 +6,7 @@
 %
 % GitHub: https://github.com/john-bokma/resume-pandoc
 
-\documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,letterpaper]{article}
+\documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,a4paper]{article}
 
 \usepackage{hyperref}
 \usepackage{geometry}
