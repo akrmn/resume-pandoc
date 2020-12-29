@@ -20,6 +20,7 @@
 
 % Your name on the resume
 \def\name{$name$}
+\def\pronouns{$pronouns$}
 
 % The following metadata will show up in the PDF properties
 \hypersetup{
@@ -75,7 +76,7 @@ $endif$
 \begin{document}
 
 % Place name at left
-{\huge\color{$name-color$}\sffamily\bfseries \name}
+{\huge\color{$name-color$}\sffamily\bfseries \name \small \phantom{ } [\pronouns]}
 
 \bigskip
 
